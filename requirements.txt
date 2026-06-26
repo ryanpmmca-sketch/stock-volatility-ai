@@ -1,0 +1,13 @@
+streamlit>=1.31
+yfinance>=0.2.40
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+xgboost>=2.0
+arch>=6.2
+vaderSentiment>=3.3
+lxml>=4.9
+# LSTM is optional. Uncomment to enable the "Also train LSTM" checkbox in the app.
+# On Streamlit Community Cloud's free tier TensorFlow can exceed memory; if your
+# deploy crashes, keep this commented out and use XGBoost only.
+# tensorflow-cpu>=2.15
